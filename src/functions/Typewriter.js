@@ -1,9 +1,12 @@
 import { Typewriter, Cursor, useTypewriter } from "react-simple-typewriter";
 
-export default function Typewriter(){
-    const {text} = useTypewriter({
+export default function Letreiro() {
+    const {text} = Typewriter({
         words: ['Conheça'],
-        loop: {}
+        loop: {},
+        typeSpeed: 120,
+        deleteSpeed: 80,
+        
     })
 
     return (
