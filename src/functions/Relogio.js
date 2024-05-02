@@ -12,4 +12,6 @@ export default function Relogio () {
     
     document.getElementById("relogio").innerHTML = `${hora}:${minuto}:${segundo}`
 
+    
+
 }
