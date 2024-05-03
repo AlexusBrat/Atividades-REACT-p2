@@ -7,7 +7,7 @@ export default function Letreiro() {
           <span id="boas_vindas" style={{fontWeight: 'bold', color: 'red'}}>
             <Typewriter
             words={['Conheça a FATEC!']}
-            loop={10}
+            loop={20}
             typeSpeed={70}
             deleteSpeed={50}
             delaySpeed={1000} />
