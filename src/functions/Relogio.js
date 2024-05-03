@@ -17,6 +17,6 @@ export default function Relogio () {
     }
     Clock()
     return (
-        <h3 id="relogio">{horario}</h3>
+        <h3 id="relogio" style={{fontWeight: 'bold', color: 'black'}}>{horario}</h3>
     )
 }

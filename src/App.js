@@ -1,14 +1,11 @@
 import './App.css';
-import Relogio from './functions/Relogio';
-import Letreiro from './functions/Letreiro';
+import MinhasRotas from './Routes/MyRoutes'
 
 export default function App() {
   
   return (
     <div className="App">
-
-      <Relogio />
-      <Letreiro />
+      <MinhasRotas />
     </div>
   );
 }
