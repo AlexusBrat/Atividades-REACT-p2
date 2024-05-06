@@ -1,5 +1,5 @@
 import './App.css';
-import MinhasRotas from './Routes/MyRoutes'
+import MinhasRotas from './Routes/MyRoutes';
 
 export default function App() {
   
