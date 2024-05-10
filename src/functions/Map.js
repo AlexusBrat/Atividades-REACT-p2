@@ -59,8 +59,7 @@ export function AllDataList() {
             <ul>{ListItens}</ul>
         )
     }
-
-
+ 
 export function DataList() {
     const chemists = peopleData.filter(person => person.profession === 'chemist')
 
