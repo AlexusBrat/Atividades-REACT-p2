@@ -2,16 +2,16 @@ import { Link } from "react-router-dom";
 import ContadorPessoa from "../functions/ContadorPessoa";
 
 
-export default function teste (){
+export default function Contador (){
     return (
         <div>
             <h1>Atividade 2</h1>
             <h3>Contador</h3>
-            <div id='corpo-atividade'>
+            <div className='corpo-atividade'>
                 <ContadorPessoa />
             </div>
 
-            <div id='btn-voltar'>
+            <div className='btn-voltar'>
                 <Link to="/">Voltar</Link>
             </div>
         </div>

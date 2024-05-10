@@ -8,12 +8,12 @@ export default function Atividade1(){
         <div>
             <h1>Atividade 1</h1>
             <h3>Letreiro/Relogio</h3>
-            <div id="corpo-atividade">
+            <div className="corpo-atividade">
                 <Relogio />
                 <Letreiro />
             </div>
             
-            <div id="btn-voltar">
+            <div className="btn-voltar">
                 <Link to="/">Voltar</Link>
             </div>
         </div>
