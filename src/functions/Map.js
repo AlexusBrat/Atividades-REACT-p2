@@ -42,14 +42,15 @@ const peopleData = [{
 
 export function AllDataList() {
         const ListItens = peopleData.map(person => 
-            <li key={person.id}>
-                <img 
+            <li key={person.id} style={{display: 'flex'}}>
+                <img style={{borderRadius: '100px', margin: '5px'}}
                     src={getImageUrl(person)}
                     alt={person.name}
                 />
-                <p>
+                <p style={{marginTop:'30px'}}>
                     <b>{person.name}:</b>
                     {' [' + person.profession + '] '}
+                    <br />
                     kwnown for {person.accomplishment}
                 </p>
             </li>

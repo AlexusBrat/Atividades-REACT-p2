@@ -16,10 +16,10 @@ const Home = ()=>{
                 <p className="item-menu">
                     <Link to="/Atividade3">Atividade 3</Link>
                 </p>
-                {/* <p>
+                <p className="item-menu">
                     <Link to="/Atividade4">Atividade 4</Link>
                 </p>
-                <p>
+                {/* <p>
                     <Link to="/Atividade5">Atividade 5</Link>
                 </p> */}
             </nav>
