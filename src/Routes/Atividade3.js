@@ -65,7 +65,7 @@ function FormatDate(date) {
 export default function PraticarReact() {
 
     return (
-        <div>
+        <>
             <h1>Atividade 3</h1>
             <h2>Praticando REACT</h2>
             <div className='corpo-atividade' style={{textAlign:'start'}}>
@@ -191,6 +191,6 @@ export default function PraticarReact() {
             <div className='btn-voltar'>
                 <Link to="/">Voltar</Link>
             </div>
-        </div>
+        </>
     )
 }
