@@ -2,6 +2,7 @@ import {Link } from 'react-router-dom';
 import InteractiveButtons from '../functions/InteractiveButtons';
 import { ToolBar, ButtonOnSmash, GenericToolBar, PropagationToolBar } from '../functions/InteractiveButtons';
 import Forms from '../functions/Forms';
+import SculptureGalery from '../functions/Sculpture';
 
 export default function Atividade4() {
 
@@ -37,6 +38,11 @@ export default function Atividade4() {
 
                 <h1>Formulários</h1>
                 <Forms />
+                <hr />
+
+                <h1>Galeria</h1>
+                <SculptureGalery />
+                <hr />
 
 
 
