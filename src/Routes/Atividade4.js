@@ -4,6 +4,12 @@ import { ToolBar, ButtonOnSmash, GenericToolBar, PropagationToolBar } from '../f
 import Forms from '../functions/Forms';
 import SculptureGallery from '../functions/Sculpture';
 import { Gallery } from '../functions/Sculpture';
+// import Render from '../functions/Render';
+import Clock from '../functions/Clock';
+import { Form, DelayedForm } from '../functions/Forms';
+import Counter from '../functions/Counter';
+import { DelayedCounter } from '../functions/Counter';
+
 
 export default function Atividade4() {
 
@@ -49,8 +55,27 @@ export default function Atividade4() {
                 <Gallery />
                 <hr />
 
-                <h1>Renderização e Confirmação</h1>
+                {/* <h1>Renderização e Confirmação</h1>
+                //Renderização desativada, altera a formação
+                <Render />
+                <hr /> */}
 
+                <h1>Re-renderizar componente quando o estado é atualizado</h1>
+                <Clock />
+                <hr />
+
+                <h1>Formulários: definir renderização de gatilhos de estado</h1>
+                <Form />
+                <hr />
+
+                <h1>A renderização tira um instantâneo no tempo</h1>
+                <Counter />
+                <hr />
+                <DelayedForm />
+                <hr />
+                <DelayedCounter />
+
+                {/* Página 37 */}
 
             </div>
 
