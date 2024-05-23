@@ -2,8 +2,8 @@ import {Link } from 'react-router-dom';
 import InteractiveButtons from '../functions/InteractiveButtons';
 import { ToolBar, ButtonOnSmash, GenericToolBar, PropagationToolBar } from '../functions/InteractiveButtons';
 import Forms from '../functions/Forms';
-import SculptureGalery from '../functions/Sculpture';
-import { Galery } from '../functions/Sculpture'
+import SculptureGallery from '../functions/Sculpture';
+import { Gallery } from '../functions/Sculpture'
 
 export default function Atividade4() {
 
@@ -29,7 +29,7 @@ export default function Atividade4() {
                 </ButtonOnSmash>
                 <hr />
 
-                <h1>Props do manipulador de eventos de nomenclatura</h1>
+                <h1>Props do manipulador de eventos com nomenclatura</h1>
                 <GenericToolBar />
                 <hr />
 
@@ -42,11 +42,11 @@ export default function Atividade4() {
                 <hr />
 
                 <h1>Galeria de Arte</h1>
-                <SculptureGalery />
+                <SculptureGallery />
                 <hr />
 
                 <h1>Galeria de Arte com múltiplas variáveis de estado</h1>
-                <Galery />
+                <Gallery />
                 <hr />
 
 

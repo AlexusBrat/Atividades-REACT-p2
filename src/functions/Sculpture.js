@@ -47,7 +47,7 @@ return (
 }
 
 
-export function Galery(){
+export function Gallery(){
     const [ index, setIndex ] = useState(0);
     const [ showMore, setShowMore ] = useState(false);
 
