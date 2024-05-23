@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
 import PackingList from '../functions/Packing';
 import { PackingListNull, PackingListDel, PackingListAnd } from '../functions/Packing';
-import Galery from '../functions/Galery';
+import Gallery from '../functions/Galery';
 import { ProfileDefault, Profile, AvatarGregorio, AvatarLin } from '../functions/Galery';
 import List from '../functions/Map';
 import { DataList, AllDataList } from '../functions/Map';
-import Recipe from '../functions/Recipe'
-import { TeaSet } from '../functions/Recipe'
+import Recipe from '../functions/Recipe';
+import { TeaSet } from '../functions/Recipe';
 
 function TodoListName() {
     const name = "Gregorio Y. Zara";
@@ -81,7 +81,7 @@ export default function PraticarReact() {
 
                 <div>
                     <h1>- Exportação Padrão</h1>
-                    <Galery />
+                    <Gallery />
                 </div>
                 <hr />
 

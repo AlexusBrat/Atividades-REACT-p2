@@ -1,5 +1,5 @@
 /* Exemplo Exportação Padrão */
-export default function Galery(){
+export default function Gallery(){
     return(
         <section>
             <h1>Amazing Scientists</h1>
