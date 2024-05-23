@@ -3,6 +3,7 @@ import InteractiveButtons from '../functions/InteractiveButtons';
 import { ToolBar, ButtonOnSmash, GenericToolBar, PropagationToolBar } from '../functions/InteractiveButtons';
 import Forms from '../functions/Forms';
 import SculptureGalery from '../functions/Sculpture';
+import { Galery } from '../functions/Sculpture'
 
 export default function Atividade4() {
 
@@ -40,10 +41,13 @@ export default function Atividade4() {
                 <Forms />
                 <hr />
 
-                <h1>Galeria</h1>
+                <h1>Galeria de Arte</h1>
                 <SculptureGalery />
                 <hr />
 
+                <h1>Galeria de Arte com múltiplas variáveis de estado</h1>
+                <Galery />
+                <hr />
 
 
             </div>
