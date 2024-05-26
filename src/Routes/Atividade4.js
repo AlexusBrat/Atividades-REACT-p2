@@ -4,14 +4,17 @@ import { ToolBar, ButtonOnSmash, GenericToolBar, PropagationToolBar } from '../f
 import Forms from '../functions/Forms';
 import SculptureGallery from '../functions/Sculpture';
 import { Gallery } from '../functions/Sculpture';
-// import Render from '../functions/Render';
+// import Render from '../functions/Render'; exemplo de renderização de componente.
 import Clock from '../functions/Clock';
-import { Form, DelayedForm } from '../functions/Forms';
+import { Form, Form2, Form3, DelayedForm } from '../functions/Forms';
 import Counter from '../functions/Counter';
 import { DelayedCounter } from '../functions/Counter';
+import Pointer from '../functions/Pointer';
 
 
 export default function Atividade4() {
+
+
 
     return(
         <>
@@ -74,8 +77,21 @@ export default function Atividade4() {
                 <DelayedForm />
                 <hr />
                 <DelayedCounter />
+                <hr />
 
-                {/* Página 37 */}
+                <h1>Atualizando Objetos no estado: Mutação</h1>
+                <Pointer />
+                <br />
+                <hr />
+
+                <h1>Copiando objetos com sintaxe de propagação</h1>
+                <Form2 />
+                <hr />
+
+                <h1>Atualizando um objeto aninhado</h1>
+                <Form3 />
+
+                {/* Página 47 */}
 
             </div>
 
