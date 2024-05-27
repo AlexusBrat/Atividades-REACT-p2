@@ -1,15 +1,13 @@
 import {Link } from 'react-router-dom';
-import InteractiveButtons from '../functions/InteractiveButtons';
-import { ToolBar, ButtonOnSmash, GenericToolBar, PropagationToolBar } from '../functions/InteractiveButtons';
+import InteractiveButtons, { ToolBar, ButtonOnSmash, GenericToolBar, PropagationToolBar } from '../functions/InteractiveButtons';
 import Forms from '../functions/Forms';
-import SculptureGallery from '../functions/Sculpture';
-import { Gallery } from '../functions/Sculpture';
+import SculptureGallery, { Gallery } from '../functions/Sculpture';
 // import Render from '../functions/Render'; exemplo de renderização de componente.
 import Clock from '../functions/Clock';
 import { Form, Form2, Form3, DelayedForm } from '../functions/Forms';
-import Counter from '../functions/Counter';
-import { DelayedCounter } from '../functions/Counter';
+import Counter, { DelayedCounter } from '../functions/Counter';
 import Pointer from '../functions/Pointer';
+import List, { CounterList, List2, List3, List4, ShapeEditor, BucketList } from '../functions/List';
 
 
 export default function Atividade4() {
@@ -90,6 +88,22 @@ export default function Atividade4() {
 
                 <h1>Atualizando um objeto aninhado</h1>
                 <Form3 />
+                <hr />
+
+                <h1>Atualizando matrizes</h1>
+                <List />
+                <hr />
+                <List2 />
+                <hr />
+                <ShapeEditor />
+                <hr />
+                <CounterList />
+                <hr />
+                <List3 />
+                <hr />
+                <List4 />
+                <hr />
+                <BucketList />               
 
                 {/* Página 47 */}
 
