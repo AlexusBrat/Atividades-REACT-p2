@@ -19,8 +19,11 @@ const Home = ()=>{
                 <p className="item-menu">
                     <Link to="/Atividade4">Atividade 4</Link>
                 </p>
-                {/* <p>
+                <p className="item-menu">
                     <Link to="/Atividade5">Atividade 5</Link>
+                </p>
+                {/* <p>
+                    <Link to="/Atividade6">Atividade 6</Link>
                 </p> */}
             </nav>
             <div className="creditos">
