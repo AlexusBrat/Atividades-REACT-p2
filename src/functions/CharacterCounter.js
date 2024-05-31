@@ -25,17 +25,17 @@ export default function CharacterCounter() {
 
     return (
         <>
-            <h3>Character Counter</h3>
+            <h2>Character Counter</h2>
             <input
                 value={text}
                 onChange={TextChanger}
             />
-            <div>
-                <p>Text Length: {textLength}</p>
-                <p>Alphabets: {alphabets}</p>
-                <p>Numbers: {numbers}</p>
-                <p>Symbols: {symbols}</p>
-                <p>Spaces: {spaces}</p>
+            <div className="character-counter-area">
+                <p className="character-counter">Text Length: {textLength}</p>
+                <p className="character-counter">Alphabets: {alphabets}</p>
+                <p className="character-counter">Numbers: {numbers}</p>
+                <p className="character-counter">Symbols: {symbols}</p>
+                <p className="character-counter">Spaces: {spaces}</p>
             </div>
         </>
     )

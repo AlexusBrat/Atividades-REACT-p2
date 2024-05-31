@@ -31,7 +31,7 @@ export default function MultFunctionalCounter() {
 
     return(
         <>
-            <h3>Multi Functional Counter</h3>
+            <h2>Multi Functional Counter</h2>
             <p className="n-functionalCounter">{valor}</p>
             <div className="functional-btn-area">
                 <button className="functional-btn" onClick={somar}>+</button>
